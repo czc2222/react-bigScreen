@@ -16,7 +16,7 @@ export const Home = () => {
       <header  style={{backgroundImage:`URL(${headerBg})`}}/>
       <main>
         <section className="section1">
-         <Chart1/>
+          <Chart1/>
           <Chart2/>
         </section>
         <section className=" bordered section2">
