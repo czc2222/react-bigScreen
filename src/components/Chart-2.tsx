@@ -10,7 +10,6 @@ export  const Chart2 =()=>{
   useEffect(() => {
     var myChart = echarts.init(divRef.current);
     myChart.setOption(createEchartsOptions({
-      ...baseEchartsOptions,
       grid: {
         x: px(100),
         y: px(40),
