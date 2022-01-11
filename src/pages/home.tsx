@@ -13,6 +13,7 @@ import {Chart7} from '../components/Chart-7';
 import {Chart10} from '../components/Chart-10';
 import {Chart11} from '../components/Chart-11';
 import {Chart12} from '../components/Chart-12';
+import {Chart13} from '../components/Chart-13';
 
 const px = (n) => n / 2420 * (window as any).pageWidth;
 
@@ -58,7 +59,8 @@ export const Home = () => {
           <div className="bordered row2 案发街道">
             <h2>案发街道统计</h2>
             <div className="charts">
-                <Chart12/>
+              <Chart12/>
+              <Chart13/>
             </div>
           </div>
           <div className="bordered row3 作案手段">

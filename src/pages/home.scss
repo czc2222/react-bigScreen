@@ -221,6 +221,7 @@
       }
     }
   }
+
   .年龄段 {display: flex;flex-direction: column;
     height: px(363);
     > .charts {
@@ -255,5 +256,8 @@
       border: 1px solid #08397d;
       h3 {font-size: px(20); color: #7ab6db; margin-top: px(6);}
     }
+  }
+  .chart12 {
+    flex: 1;display: flex; flex-direction: column;
   }
 }
