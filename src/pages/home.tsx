@@ -7,6 +7,9 @@ import {Chart3} from '../components/Chart-3';
 import {Chart4} from '../components/Chart-4';
 import {Chart5} from '../components/Chart-5';
 import {Chart6} from '../components/Chart-6';
+import {Chart8} from '../components/Chart-8';
+import {Chart9} from '../components/Chart-9';
+import {Chart7} from '../components/Chart-7';
 
 const px = (n) => n / 2420 * (window as any).pageWidth;
 
@@ -32,8 +35,18 @@ export const Home = () => {
         </section>
         <section className=" bordered section4">
           <Chart6/>
+          <div className="bordered 年龄段">
+            <h2>犯罪人员年龄段分布</h2>
+            <div className="charts">
+              <Chart7/>
+              <Chart8/>
+              <Chart9/>
+            </div>
+          </div>
         </section>
-        <section className=" bordered section5"></section>
+        <section className=" bordered section5">
+
+        </section>
       </main>
       <footer>
         &copy; czc2222 2020-{year}
