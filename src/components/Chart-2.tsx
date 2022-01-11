@@ -1,7 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import * as echarts from 'echarts';
 import {px} from '../shared/px';
-import {baseEchartsOptions} from '../shared/base-echarts-options';
 import {createEchartsOptions} from '../shared/create-echarts-options';
 
 
