@@ -3,6 +3,8 @@ import * as echarts from 'echarts';
 import {createEchartsOptions} from '../shared/create-echarts-options';
 import {px} from '../shared/px';
 
+
+
 export const Chart7 = () => {
   const divRef = useRef(null);
   useEffect(() => {
