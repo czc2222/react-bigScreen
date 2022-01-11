@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React from 'react';
 import './home.scss';
 import headerBg from '../images/header.png';
 import {Chart1} from '../components/Chart-1';
@@ -15,8 +15,6 @@ import {Chart11} from '../components/Chart-11';
 import {Chart12} from '../components/Chart-12';
 import {Chart13} from '../components/Chart-13';
 import {Chart14} from '../components/Chart-14';
-
-const px = (n) => n / 2420 * (window as any).pageWidth;
 
 
 export const Home = () => {
