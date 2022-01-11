@@ -37,12 +37,40 @@ export  const Chart2 =()=>{
         {
           name: '2011年',
           type: 'bar',
-          data: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+          data: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+          itemStyle: {
+            barBorderRadius: [2, 2, 0, 0], //柱体圆角
+            color: new echarts.graphic.LinearGradient(
+              0, 0, 1, 0, [{
+                offset: 0,
+                color: '#2034f9'
+              },
+                {
+                  offset: 1,
+                  color: '#04a1ff'
+                }
+              ]
+            ),
+          }
         },
         {
           name: '2012年',
           type: 'bar',
-          data: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+          data: [2, 3, 4, 5, 6, 7, 8, 9, 10],
+          itemStyle: {
+            barBorderRadius: [2, 2, 0, 0], //柱体圆角
+            color: new echarts.graphic.LinearGradient(
+              0, 0, 1, 0, [{
+                offset: 0,
+                color: '#b92ae8'
+              },
+                {
+                  offset: 1,
+                  color: '#6773e6'
+                }
+              ]
+            ),
+          }
         }
       ]
     }));
@@ -55,7 +83,7 @@ export  const Chart2 =()=>{
       <div ref={divRef} className="chart"/>
       <div className="legend">
         <span className="first"/> 破案排名1
-        <span className="second"/> 破案排名1
+        <span className="second"/> 破案排名2
 
       </div>
     </div>
